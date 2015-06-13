@@ -130,7 +130,7 @@
             //  Finally, append the modal to the dom.
             if (options.appendElement) {
               // append to custom append element
-              options.appendElement.append(modalElement);
+              $(options.appendElement).append(modalElement);
             } else {
               // append to body when no custom append element is specified
               body.append(modalElement);
